@@ -347,6 +347,8 @@ const blogItemArray = [
     },
 ]
 
+
+const main = document.querySelector(".main")
 const desktopHeaderNavList = document.querySelector(".desktop-header__nav-list")
 const homeDescription = document.querySelector(".home__description__random")
 const homeIconList = document.querySelector(".home__icon-list")
