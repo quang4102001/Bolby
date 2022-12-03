@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/grid/grid.css" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Bolby</title>
+</head>
+
+<body>
+    <div class="root">
+        <header class="desktop-header">
+            <div class="logo">
+                <a href="index.html"><img class="testimonial__client__img" src="./src/img/logo.svg" alt="logo" /></a>
+            </div>
+            <ul class="desktop-header__nav-list"></ul>
+            <div class="desktop-header__footer">© 2020 Bolby Template.</div>
+        </header>
+        <header class="mobile-header"></header>
+        <div class="main">
+            <section id="home" class="home">
+                <div class="home__container">
+                    <img class="home__avatar" src="./src/img/avatar-1.svg" alt="avatar-1" />
+                    <h1 class="home__name">Bolby Doe</h1>
+                    <span class="home__description">
+                        I'm a
+                        <span class="home__description__random"></span>
+                    </span>
+                    <ul class="home__icon-list"></ul>
+                    <a href="#contact" class="btn btn--home">Hire me</a>
+                </div>
+                <div class="scroll-down">
+                    <a href="#about" class="scroll-down__container">
+                        <span>Scroll down</span>
+                        <span class="scroll-down__mouse">
+                            <span class="scroll-down__wheel"></span>
+                        </span>
+                    </a>
+                </div>
+            </section>
+            <section id="about" class="about">
+                <div class="section-container">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="row no-wrap-space">
+                        <div class="col l-3">
+                            <div class="about__avatar">
+                                <img src="./src/img/avatar-2.svg" alt="avatar-2">
+                            </div>
+                        </div>
+                        <div class="col l-9">
+                            <div class="about__box">
+                                <div class="row no-wrap-space">
+                                    <div class="col l-6">
+                                        <div class="cv-box">
+                                            <p>I am Bolby Doe, web developer from London, United Kingdom. I have rich
+                                                experience in web site design and building and customization, also I am
+                                                good at WordPress.</p>
+                                            <a href="#" class="btn btn--about">Download CV</a>
+                                        </div>
+                                    </div>
+                                    <div class="col l-6">
+                                        <div class="skill-list"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="services" class="services">
+                <div class="section-container">
+                    <h2 class="section-title">Services</h2>
+                    <div class="row no-wrap-space"></div>
+                    <p class="services__text">Looking for a custom job? <a class="services__text-link"
+                            href="#contact">Click here</a> to contact me! 👋</p>
+                </div>
+            </section>
+            <section id="experience" class="experience">
+                <div class="section-container">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="row no-wrap-space">
+                    </div>
+                </div>
+            </section>
+            <section id="works" class="works">
+                <div class="section-container">
+                    <h2 class="section-title">Recent works</h2>
+                    <ul class="works__type-list"></ul>
+                    <div class="row wrap-margin no-wrap-space"></div>
+                    <div class="works__btn-box">
+                        <a href="#" class="btn btn--works">Load more</a>
+                    </div>
+                </div>
+            </section>
+            <section id="price" class="price">
+                <div class="section-container">
+                    <h2 class="section-title">Pricing Plans</h2>
+                    <div class="row no-gutters">
+                    </div>
+                </div>
+            </section>
+            <section id="testimonial" class="testimonial">
+                <div class="section-container">
+                    <h2 class="section-title">Clients & Reviews</h2>
+                    <div class="testimonial__wrapper">
+                        <div class="testimonial__wrapper__slide-list"></div>
+                    </div>
+                    <span class="testimonial__client">
+                        <div class="row no-wrap-space"></div>
+                    </span>
+                </div>
+            </section>
+            <section id="blog" class="blog">
+                <div class="section-container">
+                    <h2 class="section-title">Latest Posts</h2>
+                    <div class="blog-list">
+                        <div class="row no-wrap-space"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="contact">
+                <div class="section-container">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="row no-wrap-space">
+                        <div class="col l-4">
+                            <div class="contact__info">
+                                <h3>Let's talk about everything!</h3>
+                                <p>Don't like forms? Send me an <a href="#">email</a>. 👋</p>
+                            </div>
+                        </div>
+                        <div class="col l-8">
+                            <form action="#" class="contact__form" method="get">
+                                <div class="row no-wrap-space">
+                                    <div class="col l-6">
+                                        <div class="contact__form__group">
+                                            <input type="text" class="contact__form__input " name="name"
+                                                placeholder="Your name" required>
+                                            <div class="contact__form__err"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-6">
+                                        <div class="contact__form__group">
+                                            <input type="email" class="contact__form__input " name="email"
+                                                placeholder="Email address" required>
+                                            <div class="contact__form__err"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-12">
+                                        <div class="contact__form__group">
+                                            <input type="text" class="contact__form__input " name="subject"
+                                                placeholder="Subject" required>
+                                            <div class="contact__form__err"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-12">
+                                        <div class="contact__form__group">
+                                            <textarea class="contact__form__input contact__form__input--textarea"
+                                                name="message" col="30" row="10" placeholder="Message"
+                                                required></textarea>
+                                            <div class="contact__form__err"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn--contact">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section></section>
+        </div>
+        <a class="scroll-to-top" href="#home">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </div>
+    <script src="./src/main.js"></script>
+</body>
+
+</html>
