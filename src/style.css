@@ -214,11 +214,14 @@ section {
   height: 100vh;
   background-color: var(--background-color-1);
   padding: 0;
+  position: relative;
+  overflow: hidden;
 }
 
 .home__container {
   min-width: 540px;
   text-align: center;
+  z-index: 10;
 }
 
 .home__avatar {
@@ -1067,7 +1070,7 @@ section {
 /* scroll-to-top */
 
 .scroll-to-top {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   width: 40px;
@@ -1090,4 +1093,13 @@ section {
 .scroll-to-top>i {
   font-size: 1.6rem;
   color: #fff;
+}
+
+.home > .layer{
+  z-index: 1;
+  transition: all ease-in-out 3s;
+  -webkit-transition: all ease-in-out 3s;
+  -moz-transition: all ease-in-out 3s;
+  -ms-transition: all ease-in-out 3s;
+  -o-transition: all ease-in-out 3s;
 }
